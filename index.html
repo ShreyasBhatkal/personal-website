@@ -3,101 +3,102 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Shreyas Bhatkal</title>
-  <style>
-    body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; background: #f2f2f2; color: #333; }
-    header { background: #34495e; color: white; text-align: center; padding: 50px 20px; }
-    header h1 { color: white; margin-bottom: 10px; }
-    main { padding: 30px; max-width: 1000px; margin: auto; background: white; border-radius: 10px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); }
-    img.profile { max-width: 180px; border-radius: 100px; display: block; margin: 20px auto; }
-    h1, h2 { color: #2c3e50; }
-    section { margin-bottom: 40px; }
-    ul { padding-left: 20px; }
-    footer { text-align: center; padding: 30px; font-size: 14px; color: #888; }
-    a { color: #007acc; text-decoration: none; }
-    .contact a:hover { text-decoration: underline; }
-    .section-title { border-bottom: 2px solid #eee; padding-bottom: 5px; margin-bottom: 15px; }
-    iframe { width: 100%; height: 300px; margin: 10px 0; border: none; border-radius: 8px; }
-  </style>
+  <title>Shreyas Bhatkal – Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <header>
-    <h1>Shreyas Bhatkal</h1>
-    <p>Business Analyst/Product Owner @ GLORY | Executive MBA candidate @ IIM Raipur 2025-27</p>
-  </header>
-
   <main>
-    <img src="profile.jpg" alt="Shreyas Bhatkal" class="profile">
 
-    <section>
-      <h2 class="section-title">About Me</h2>
-      <p>I’m a versatile and driven professional with over 6 years of experience in product development, business analysis, and system design. With a strong foundation in software engineering and current Executive MBA studies at IIM Raipur, I specialize in bridging the gap between business objectives and technical implementation to deliver impactful digital solutions.</p>
-    </section>
-
-    <section>
-      <h2 class="section-title">Professional Experience</h2>
-      <ul>
-        <li>
-          <strong>Business Analyst / Product Owner — Glory Global Solutions, Frankfurt (November 2023 – Present)</strong><br>
-          Leading digital transformation projects in the financial technology space. I develop product roadmaps, design workflows, and define user stories that align with customer needs and compliance standards. I work directly with stakeholders, UX/UI designers, and developers to ensure smooth implementation and continuous product improvements. I have introduced analytics to monitor product KPIs and improved productivity by over 20%.
+    <!-- SIDEBAR -->
+    <aside class="sidebar active">
+      <div class="sidebar-info">
+        <div class="avatar-box">
+          <img src="your-photo.jpg" alt="Shreyas Bhatkal" width="80">
+        </div>
+        <div class="info-content">
+          <h1 class="name">Shreyas Bhatkal</h1>
+          <p class="title">Requirements and System Analyst | MBA @ IIM Raipur</p>
+        </div>
+      </div>
+      <div class="separator"></div>
+      <ul class="contacts-list sidebar-info_more">
+        <li class="contact-item">
+          <div class="icon-box"><ion-icon name="mail-outline"></ion-icon></div>
+          <div class="contact-info">
+            <p class="contact-title">Email</p>
+            <a href="mailto:shreyasbhatkal26@gmail.com" class="contact-link">shreyasbhatkal26@gmail.com</a>
+          </div>
         </li>
-        <li>
-          <strong>IT Consultant — IndusEuro GmbH, Frankfurt (January 2022 – July 2023)</strong><br>
-          Managed the rollout of high-quality financial and inventory management software. Facilitated testing, release coordination, and integration across platforms using JIRA, Tableau, and Confluence. Created visual dashboards for tracking business KPIs and trained junior consultants in agile delivery models.
-        </li>
-        <li>
-          <strong>Software Analyst — Accenture, Bengaluru (August 2016 – June 2018)</strong><br>
-          Worked in a client-facing role supporting test automation for enterprise systems. Created, validated, and optimized test cases for UI, APIs, and databases. Contributed to improving defect detection and reduced overall testing time by 10% through process refinement and automation scripts.
+        <li class="contact-item">
+          <div class="icon-box"><ion-icon name="location-outline"></ion-icon></div>
+          <div class="contact-info">
+            <p class="contact-title">Location</p>
+            <address>Frankfurt am Main, Germany</address>
+          </div>
         </li>
       </ul>
-    </section>
-
-    <section>
-      <h2 class="section-title">Education</h2>
-      <ul>
-        <li><strong>Executive MBA</strong> – Indian Institute of Management, Raipur (2025–Present)</li>
-        <li><strong>Master of Science</strong> – TU Bergakademie Freiberg, Germany (2018–2021)</li>
-        <li><strong>Bachelor of Engineering</strong> – KLE Technological University, Hubli (2012–2016)</li>
+      <ul class="social-list">
+        <li class="social-item"><a href="https://linkedin.com/in/shreyas" class="social-link" target="_blank">LinkedIn</a></li>
+        <li class="social-item"><a href="https://github.com/shreyas" class="social-link" target="_blank">GitHub</a></li>
+        <li class="social-item"><a href="https://www.youtube.com/channel/yourchannel" class="social-link" target="_blank">YouTube</a></li>
       </ul>
-    </section>
+    </aside>
 
-    <section>
-      <h2 class="section-title">Skills & Tools</h2>
-      <p><strong>Core Skills:</strong> Product Management, Agile & Scrum, Requirement Engineering, Roadmapping, Process Optimization</p>
-      <p><strong>Software Tools:</strong> JIRA, Confluence, Tableau, Power BI, Draw io, Azure DevOps, Figma, Mermaid, Visual Studio, SOAP UI, Wireshark, Charles Proxy</p>
-    </section>
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
 
-    <section>
-      <h2 class="section-title">Certifications</h2>
-      <ul>
-        <li>Google Project Management</li>
-        <li>Google Agile Project Management</li>
-        <li>Google Foundations of Business Intelligence</li>
-      </ul>
-    </section>
+      <!-- ABOUT -->
+      <article class="about active">
+        <header><h2 class="article-title">About Me</h2></header>
+        <section class="about-text">
+          <p>I am Shreyas Bhatkal, currently working as a System Analyst at Glory Global Solutions in Germany. With a background in software testing and systems analysis, I’ve worked on banking automation systems and digital transformation projects. I am also pursuing an MBA from IIM Raipur to strengthen my strategic and managerial skills.</p>
+        </section>
+      </article>
 
-    <section>
-      <h2 class="section-title">Hobbies & Creative Work</h2>
-      <p>Outside of work, I am deeply passionate about trekking, short film making, and acting. I enjoy telling meaningful stories through visuals and have directed/acted in short movies on YouTube.</p>
+      <!-- RESUME -->
+      <article class="resume">
+        <header><h2 class="article-title">Resume</h2></header>
+        <section class="timeline">
+          <div class="title-wrapper"><h3 class="h3">Experience</h3></div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="timeline-item-title">System Analyst – Glory Global Solutions</h4>
+              <span>Nov 2023 – Present</span>
+              <p class="timeline-text">Working on ATM automation, cash handling software upgrades, and requirement analysis for secure banking environments.</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="timeline-item-title">IT Consultant – IndusEuro Consulting</h4>
+              <span>Jan 2022 – Jul 2023</span>
+              <p class="timeline-text">Consulted on digital systems for clients across Germany, focusing on API integration, test strategy, and agile project support.</p>
+            </li>
+          </ol>
+        </section>
 
-      <p><strong>My Creative Work:</strong></p>
+        <section class="timeline">
+          <div class="title-wrapper"><h3 class="h3">Education</h3></div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="timeline-item-title">IIM Raipur – Executive MBA</h4>
+              <span>Jan 2025 – Present</span>
+              <p class="timeline-text">Courses: Marketing, Microeconomics, Statistics, Organizational Behaviour.</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="timeline-item-title">KLE Technological University – B.E. in Industrial and Production</h4>
+              <span>2012 – 2016</span>
+            </li>
+          </ol>
+        </section>
+      </article>
 
-      <iframe src="https://www.youtube.com/embed/zDS_GxBJmNY" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/1e-oRccIj7M" allowfullscreen></iframe>
-    </section>
+    </div>
 
-    <section class="contact">
-      <h2 class="section-title">Contact Me</h2>
-      <p>Email: <a href="mailto:shreyasbhatkal26@gmail.com">shreyasbhatkal26@gmail.com</a></p>
-      <p>Phone: +49-15783236245</p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/shreyas-bhatkal-8b61a7126" target="_blank">linkedin.com/in/shreyas-bhatkal</a></p>
-    </section>
   </main>
 
-  <footer>
-    &copy; 2025 Shreyas Bhatkal | Built with ❤️ from Frankfurt
-  </footer>
+  <!-- ICONS CDN -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </body>
 </html>
